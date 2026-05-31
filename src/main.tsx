@@ -179,7 +179,7 @@ function App() {
               <div className="section-title">
                 <div>
                   <span>Valores</span>
-                  <h2>Maiores valores</h2>
+                  <h2>Maiores valores em aberto</h2>
                 </div>
               </div>
               {largestOpenEntries.length === 0 ? (
