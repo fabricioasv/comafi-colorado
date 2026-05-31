@@ -156,6 +156,31 @@ function App() {
           </section>
 
           <section className="focus-grid">
+            <article className="focus-panel balances-panel">
+              <div className="section-title">
+                <div>
+                  <span>Saldos</span>
+                  <h2>Socios</h2>
+                </div>
+              </div>
+              <p className="panel-subtitle">{currentMonth?.label ?? "Mes atual nao encontrado"}</p>
+              <div className="balance-row">
+                <span>Ildeu/Guim.</span>
+                <strong>{formatMoney(overview.currentIldeuGuim)}</strong>
+              </div>
+              <div className="balance-row">
+                <span>Fab./Alb.</span>
+                <strong>{formatMoney(overview.currentFabAlb)}</strong>
+              </div>
+              {overview.nextDue && (
+                <div className="next-due">
+                  <span>Proximo vencimento</span>
+                  <strong>{formatDate(overview.nextDue.dueDate)}</strong>
+                  <p>{overview.nextDue.supplier}</p>
+                </div>
+              )}
+            </article>
+
             <article className="focus-panel">
               <div className="section-title">
                 <div>
@@ -189,31 +214,6 @@ function App() {
                   {largestOpenEntries.slice(0, 8).map((entry, index) => (
                     <OpenEntryCard key={`largest-${entry.monthId}-${entry.supplier}-${entry.dueDate}-${index}`} entry={entry} />
                   ))}
-                </div>
-              )}
-            </article>
-
-            <article className="focus-panel balances-panel">
-              <div className="section-title">
-                <div>
-                  <span>Saldos</span>
-                  <h2>Socios</h2>
-                </div>
-              </div>
-              <p className="panel-subtitle">{currentMonth?.label ?? "Mes atual nao encontrado"}</p>
-              <div className="balance-row">
-                <span>Ildeu/Guim.</span>
-                <strong>{formatMoney(overview.currentIldeuGuim)}</strong>
-              </div>
-              <div className="balance-row">
-                <span>Fab./Alb.</span>
-                <strong>{formatMoney(overview.currentFabAlb)}</strong>
-              </div>
-              {overview.nextDue && (
-                <div className="next-due">
-                  <span>Proximo vencimento</span>
-                  <strong>{formatDate(overview.nextDue.dueDate)}</strong>
-                  <p>{overview.nextDue.supplier}</p>
                 </div>
               )}
             </article>
