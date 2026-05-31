@@ -107,6 +107,7 @@ function App() {
   const openEntries = getEntriesWithMonth(months)
     .filter((entry) => entry.status === "EM ABERTO" && !isDeposit(entry))
     .sort(compareByDueDate);
+  const largestOpenEntries = [...openEntries].sort((a, b) => numberOrZero(b.netValue) - numberOrZero(a.netValue));
   const selectedEntries = filterMonthEntries(selectedMonth?.entries ?? [], query, showPaid);
 
   return (
@@ -169,6 +170,24 @@ function App() {
                 <div className="open-list">
                   {openEntries.slice(0, 8).map((entry, index) => (
                     <OpenEntryCard key={`${entry.monthId}-${entry.supplier}-${entry.dueDate}-${index}`} entry={entry} />
+                  ))}
+                </div>
+              )}
+            </article>
+
+            <article className="focus-panel">
+              <div className="section-title">
+                <div>
+                  <span>Valores</span>
+                  <h2>Maiores valores</h2>
+                </div>
+              </div>
+              {largestOpenEntries.length === 0 ? (
+                <p className="muted">Nenhuma conta em aberto.</p>
+              ) : (
+                <div className="open-list">
+                  {largestOpenEntries.slice(0, 8).map((entry, index) => (
+                    <OpenEntryCard key={`largest-${entry.monthId}-${entry.supplier}-${entry.dueDate}-${index}`} entry={entry} />
                   ))}
                 </div>
               )}

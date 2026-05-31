@@ -477,7 +477,7 @@ h1 {
   }
 
   .focus-grid {
-    grid-template-columns: minmax(0, 1.6fr) minmax(320px, 0.7fr);
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(300px, 0.75fr);
   }
 
   .month-strip {
