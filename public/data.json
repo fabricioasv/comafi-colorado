@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T00:49:21.119Z",
+  "updatedAt": "2026-06-11T22:51:02.624Z",
   "sourceName": "planilha.xlsx",
   "months": [
     {
@@ -11872,14 +11872,14 @@
       "year": 2026,
       "month": 5,
       "totals": {
-        "paid": 33184.96000000001,
-        "open": 5512.139999999999,
+        "paid": 38705.38000000001,
+        "open": 0,
         "depositsIldeuGuim": 20000,
         "depositsFabAlb": 20000,
-        "expenses": 38697.10000000001,
-        "finalIldeuGuim": 799.78,
-        "finalFabAlb": 799.78,
-        "finalTotal": 1599.55
+        "expenses": 38705.38000000001,
+        "finalIldeuGuim": 647.31,
+        "finalFabAlb": 647.31,
+        "finalTotal": 1294.62
       },
       "entries": [
         {
@@ -12337,7 +12337,7 @@
           "paidAt": "2026-05-22"
         },
         {
-          "supplier": "A nova casa moura",
+          "supplier": "A nova casa moura (01/02)",
           "invoice": "94545",
           "dueDate": "2026-05-23",
           "paymentMethod": "BOLETO",
@@ -12416,7 +12416,7 @@
         },
         {
           "supplier": "Deposito  Fabriciio",
-          "dueDate": "2026-05-11",
+          "dueDate": "2026-05-27",
           "paymentMethod": "PIX",
           "netValue": 0,
           "depositFabAlb": 5000,
@@ -12449,7 +12449,8 @@
           "balanceIldeuGuim": 3407.52,
           "balanceFabAlb": 3407.52,
           "totalBalance": 6815.04,
-          "status": "EM ABERTO"
+          "status": "QUITADO",
+          "paidAt": "2026-05-29"
         },
         {
           "supplier": "Empreita reboco - Daniel",
@@ -12460,31 +12461,41 @@
           "balanceIldeuGuim": 3353.84,
           "balanceFabAlb": 3353.84,
           "totalBalance": 6707.67,
-          "status": "EM ABERTO"
+          "status": "QUITADO",
+          "paidAt": "2026-05-29"
         },
         {
           "supplier": "Pasi seguros",
           "invoice": "6614806",
-          "dueDate": "2026-05-30",
+          "dueDate": "2026-05-29",
           "paymentMethod": "BOLETO",
-          "netValue": 108.12,
-          "halfValue": 54.06,
+          "netValue": 116.4,
+          "halfValue": 58.2,
           "balanceIldeuGuim": 853.84,
           "balanceFabAlb": 853.84,
           "totalBalance": 1707.67,
-          "status": "EM ABERTO"
+          "status": "QUITADO",
+          "paidAt": "2026-05-29"
         },
         {
           "supplier": "A nova casa moura (02/03)",
           "invoice": "94183",
-          "dueDate": "2026-05-30",
+          "dueDate": "2026-05-29",
           "paymentMethod": "BOLETO",
           "netValue": 296.65,
           "halfValue": 148.32,
-          "balanceIldeuGuim": 799.78,
-          "balanceFabAlb": 799.78,
-          "totalBalance": 1599.55,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 795.64,
+          "balanceFabAlb": 795.64,
+          "totalBalance": 1591.27,
+          "status": "QUITADO",
+          "paidAt": "2026-05-29"
+        },
+        {
+          "supplier": "",
+          "balanceIldeuGuim": 647.31,
+          "balanceFabAlb": 647.31,
+          "totalBalance": 1294.62,
+          "status": "OUTRO"
         }
       ]
     },
@@ -12493,39 +12504,69 @@
       "label": "JUNHO 26",
       "year": 2026,
       "month": 6,
+      "openingBalance": 647.31,
       "totals": {
-        "paid": 0,
-        "open": 30922.489999999998,
-        "depositsIldeuGuim": 0,
-        "depositsFabAlb": 0,
-        "expenses": 30922.489999999998,
-        "finalIldeuGuim": -15407.18,
-        "finalFabAlb": -15407.18,
-        "finalTotal": -30814.37
+        "paid": 9293.3,
+        "open": 25990.16,
+        "depositsIldeuGuim": 20000,
+        "depositsFabAlb": 15000,
+        "expenses": 35283.460000000014,
+        "finalIldeuGuim": 2412.33,
+        "finalFabAlb": -1940.36,
+        "finalTotal": 471.97
       },
       "entries": [
         {
-          "supplier": "Deposito",
+          "supplier": "Deposito  Guimarães",
+          "dueDate": "2026-06-01",
+          "paymentMethod": "PIX",
+          "netValue": 0,
+          "halfValue": 0,
+          "depositIldeuGuim": 10000,
+          "balanceFabAlb": 647.31,
+          "totalBalance": 647.31,
+          "status": "QUITADO",
+          "paidAt": "2026-06-01"
+        },
+        {
+          "supplier": "Deposito Ildeu",
+          "dueDate": "2026-06-01",
+          "paymentMethod": "PIX",
+          "netValue": 0,
+          "halfValue": 0,
+          "depositIldeuGuim": 10000,
+          "balanceIldeuGuim": 10000,
+          "balanceFabAlb": 647.31,
+          "totalBalance": 10647.31,
+          "status": "QUITADO",
+          "paidAt": "2026-06-01"
+        },
+        {
+          "supplier": "Deposito Fabricio",
+          "dueDate": "2026-06-01",
           "paymentMethod": "PIX",
           "netValue": 0,
           "halfValue": 0,
           "depositIldeuGuim": 0,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Deposito",
-          "paymentMethod": "PIX",
-          "depositIldeuGuim": 0,
-          "status": "EM ABERTO"
+          "depositFabAlb": 5000,
+          "balanceIldeuGuim": 20000,
+          "balanceFabAlb": 647.31,
+          "totalBalance": 20647.31,
+          "status": "QUITADO",
+          "paidAt": "2026-06-01"
         },
         {
           "supplier": "Cemig (Rua Ronan Edson)",
           "invoice": "3015327474",
           "dueDate": "2026-06-02",
           "paymentMethod": "BOLETO",
-          "netValue": 169.33,
-          "halfValue": 84.67,
-          "status": "EM ABERTO"
+          "netValue": 182.6,
+          "halfValue": 91.3,
+          "balanceIldeuGuim": 20000,
+          "balanceFabAlb": 5647.31,
+          "totalBalance": 25647.31,
+          "status": "QUITADO",
+          "paidAt": "2026-06-05"
         },
         {
           "supplier": "O ponto eletrico",
@@ -12534,10 +12575,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 175.82,
           "halfValue": 87.91,
-          "balanceIldeuGuim": -84.66,
-          "balanceFabAlb": -84.66,
-          "totalBalance": -169.33,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 19908.7,
+          "balanceFabAlb": 5556.01,
+          "totalBalance": 25464.71,
+          "status": "QUITADO",
+          "paidAt": "2026-06-02"
         },
         {
           "supplier": "A nova casa moura 03/05",
@@ -12546,10 +12588,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 2907.3,
           "halfValue": 1453.65,
-          "balanceIldeuGuim": -172.57,
-          "balanceFabAlb": -172.57,
-          "totalBalance": -345.15,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 19820.79,
+          "balanceFabAlb": 5468.1,
+          "totalBalance": 25288.89,
+          "status": "QUITADO",
+          "paidAt": "2026-06-02"
         },
         {
           "supplier": "A nova casa moura 04/05",
@@ -12558,10 +12601,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 960,
           "halfValue": 480,
-          "balanceIldeuGuim": -1626.22,
-          "balanceFabAlb": -1626.22,
-          "totalBalance": -3252.45,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 18367.14,
+          "balanceFabAlb": 4014.45,
+          "totalBalance": 22381.59,
+          "status": "QUITADO",
+          "paidAt": "2026-06-02"
         },
         {
           "supplier": "Erick  G Vieira",
@@ -12570,22 +12614,72 @@
           "paymentMethod": "BOLETO",
           "netValue": 157.5,
           "halfValue": 78.75,
-          "balanceIldeuGuim": -2106.22,
-          "balanceFabAlb": -2106.22,
-          "totalBalance": -4212.45,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 17887.14,
+          "balanceFabAlb": 3534.45,
+          "totalBalance": 21421.59,
+          "status": "QUITADO",
+          "paidAt": "2026-06-03"
+        },
+        {
+          "supplier": "Deposito Albino",
+          "dueDate": "2026-06-04",
+          "paymentMethod": "PIX",
+          "netValue": 0,
+          "depositFabAlb": 5000,
+          "balanceIldeuGuim": 17808.39,
+          "balanceFabAlb": 3455.7,
+          "totalBalance": 21264.09,
+          "status": "QUITADO",
+          "paidAt": "2026-06-04"
+        },
+        {
+          "supplier": "Deposito Fabricio",
+          "dueDate": "2026-06-04",
+          "paymentMethod": "PIX",
+          "netValue": 0,
+          "depositFabAlb": 5000,
+          "balanceIldeuGuim": 17808.39,
+          "balanceFabAlb": 8455.7,
+          "totalBalance": 26264.09,
+          "status": "QUITADO",
+          "paidAt": "2026-06-04"
         },
         {
           "supplier": "Ferrolagoas (02/02)",
           "invoice": "101312",
           "dueDate": "2026-06-04",
           "paymentMethod": "BOLETO",
-          "netValue": 332.15,
+          "netValue": 332.16,
           "halfValue": 166.08,
-          "balanceIldeuGuim": -2184.97,
-          "balanceFabAlb": -2184.97,
-          "totalBalance": -4369.95,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 17808.39,
+          "balanceFabAlb": 13455.7,
+          "totalBalance": 31264.09,
+          "status": "QUITADO",
+          "paidAt": "2026-06-05"
+        },
+        {
+          "supplier": "Fabiano Rodrigues (calha) entrada",
+          "dueDate": "2026-06-05",
+          "paymentMethod": "PIX",
+          "netValue": 2875,
+          "halfValue": 1437.5,
+          "balanceIldeuGuim": 17642.31,
+          "balanceFabAlb": 13289.62,
+          "totalBalance": 30931.93,
+          "status": "QUITADO",
+          "paidAt": "2026-06-05"
+        },
+        {
+          "supplier": "Albino compra material",
+          "dueDate": "2026-06-05",
+          "paymentMethod": "PIX",
+          "netValue": 319.99,
+          "halfValue": 160,
+          "balanceIldeuGuim": 16204.81,
+          "balanceFabAlb": 11852.12,
+          "totalBalance": 28056.93,
+          "status": "QUITADO",
+          "paidAt": "2026-06-05"
         },
         {
           "supplier": "A Nova Casa Moura",
@@ -12594,10 +12688,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 149.5,
           "halfValue": 74.75,
-          "balanceIldeuGuim": -2351.05,
-          "balanceFabAlb": -2351.05,
-          "totalBalance": -4702.1,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 16044.82,
+          "balanceFabAlb": 11692.13,
+          "totalBalance": 27736.94,
+          "status": "QUITADO",
+          "paidAt": "2026-06-08"
         },
         {
           "supplier": "Eletrica Norte (01/03)",
@@ -12606,10 +12701,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 373.2,
           "halfValue": 186.6,
-          "balanceIldeuGuim": -2425.8,
-          "balanceFabAlb": -2425.8,
-          "totalBalance": -4851.6,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 15970.07,
+          "balanceFabAlb": 11617.38,
+          "totalBalance": 27587.44,
+          "status": "QUITADO",
+          "paidAt": "2026-06-08"
         },
         {
           "supplier": "A Nova Casa Moura (03/04)",
@@ -12618,10 +12714,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 486.48,
           "halfValue": 243.24,
-          "balanceIldeuGuim": -2612.4,
-          "balanceFabAlb": -2612.4,
-          "totalBalance": -5224.8,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 15783.47,
+          "balanceFabAlb": 11430.78,
+          "totalBalance": 27214.24,
+          "status": "QUITADO",
+          "paidAt": "2026-06-08"
         },
         {
           "supplier": "A nova Casa Moura (02/02)",
@@ -12630,10 +12727,11 @@
           "paymentMethod": "BOLETO",
           "netValue": 373.75,
           "halfValue": 186.88,
-          "balanceIldeuGuim": -2855.64,
-          "balanceFabAlb": -2855.64,
-          "totalBalance": -5711.28,
-          "status": "EM ABERTO"
+          "balanceIldeuGuim": 15540.23,
+          "balanceFabAlb": 11187.54,
+          "totalBalance": 26727.76,
+          "status": "QUITADO",
+          "paidAt": "2026-06-08"
         },
         {
           "supplier": "Tania da Luz Rezende (04/04)",
@@ -12642,9 +12740,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 4096,
           "halfValue": 2048,
-          "balanceIldeuGuim": -3042.51,
-          "balanceFabAlb": -3042.51,
-          "totalBalance": -6085.03,
+          "balanceIldeuGuim": 15353.35,
+          "balanceFabAlb": 11000.66,
+          "totalBalance": 26354.01,
           "status": "EM ABERTO"
         },
         {
@@ -12653,20 +12751,43 @@
           "paymentMethod": "BOLETO",
           "netValue": 85.55,
           "halfValue": 42.78,
-          "balanceIldeuGuim": -5090.52,
-          "balanceFabAlb": -5090.52,
-          "totalBalance": -10181.03,
+          "balanceIldeuGuim": 13305.35,
+          "balanceFabAlb": 8952.66,
+          "totalBalance": 22258.01,
           "status": "EM ABERTO"
         },
         {
           "supplier": "Francis Henrique Contabilidade",
           "dueDate": "2026-06-10",
           "paymentMethod": "BOLETO",
-          "netValue": 413.88,
-          "halfValue": 206.94,
-          "balanceIldeuGuim": -5133.29,
-          "balanceFabAlb": -5133.29,
-          "totalBalance": -10266.58,
+          "netValue": 441.98,
+          "halfValue": 220.99,
+          "balanceIldeuGuim": 13262.58,
+          "balanceFabAlb": 8909.89,
+          "totalBalance": 22172.46,
+          "status": "EM ABERTO"
+        },
+        {
+          "supplier": "Padromax",
+          "invoice": "270990",
+          "dueDate": "2026-06-12",
+          "paymentMethod": "BOLETO",
+          "netValue": 240,
+          "halfValue": 120,
+          "balanceIldeuGuim": 13041.59,
+          "balanceFabAlb": 8688.9,
+          "totalBalance": 21730.48,
+          "status": "EM ABERTO"
+        },
+        {
+          "supplier": "Nota material - Daniel",
+          "dueDate": "2026-06-12",
+          "paymentMethod": "PIX",
+          "netValue": 96,
+          "halfValue": 48,
+          "balanceIldeuGuim": 12921.59,
+          "balanceFabAlb": 8568.9,
+          "totalBalance": 21490.48,
           "status": "EM ABERTO"
         },
         {
@@ -12675,9 +12796,21 @@
           "paymentMethod": "PIX",
           "netValue": 5000,
           "halfValue": 2500,
-          "balanceIldeuGuim": -5340.23,
-          "balanceFabAlb": -5340.23,
-          "totalBalance": -10680.46,
+          "balanceIldeuGuim": 12873.59,
+          "balanceFabAlb": 8520.9,
+          "totalBalance": 21394.48,
+          "status": "EM ABERTO"
+        },
+        {
+          "supplier": "Erick  G Vieira",
+          "invoice": "295843",
+          "dueDate": "2026-06-12",
+          "paymentMethod": "BOLETO",
+          "netValue": 157.5,
+          "halfValue": 78.75,
+          "balanceIldeuGuim": 10373.58,
+          "balanceFabAlb": 6020.9,
+          "totalBalance": 16394.48,
           "status": "EM ABERTO"
         },
         {
@@ -12686,9 +12819,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -7840.23,
-          "balanceFabAlb": -7840.23,
-          "totalBalance": -15680.46,
+          "balanceIldeuGuim": 10294.83,
+          "balanceFabAlb": 5942.15,
+          "totalBalance": 16236.98,
           "status": "EM ABERTO"
         },
         {
@@ -12697,9 +12830,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -7855.09,
-          "balanceFabAlb": -7855.09,
-          "totalBalance": -15710.18,
+          "balanceIldeuGuim": 10279.98,
+          "balanceFabAlb": 5927.29,
+          "totalBalance": 16207.26,
           "status": "EM ABERTO"
         },
         {
@@ -12708,9 +12841,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -7869.95,
-          "balanceFabAlb": -7869.95,
-          "totalBalance": -15739.9,
+          "balanceIldeuGuim": 10265.12,
+          "balanceFabAlb": 5912.43,
+          "totalBalance": 16177.54,
           "status": "EM ABERTO"
         },
         {
@@ -12719,20 +12852,20 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -7884.81,
-          "balanceFabAlb": -7884.81,
-          "totalBalance": -15769.62,
+          "balanceIldeuGuim": 10250.25,
+          "balanceFabAlb": 5897.57,
+          "totalBalance": 16147.82,
           "status": "EM ABERTO"
         },
         {
           "supplier": "Saae",
           "dueDate": "2026-06-15",
           "paymentMethod": "BOLETO",
-          "netValue": 198.48,
-          "halfValue": 99.24,
-          "balanceIldeuGuim": -7899.67,
-          "balanceFabAlb": -7899.67,
-          "totalBalance": -15799.34,
+          "netValue": 69.27,
+          "halfValue": 34.64,
+          "balanceIldeuGuim": 10235.4,
+          "balanceFabAlb": 5882.71,
+          "totalBalance": 16118.1,
           "status": "EM ABERTO"
         },
         {
@@ -12742,9 +12875,21 @@
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -7998.91,
-          "balanceFabAlb": -7998.91,
-          "totalBalance": -15997.82,
+          "balanceIldeuGuim": 10200.76,
+          "balanceFabAlb": 5848.07,
+          "totalBalance": 16048.83,
+          "status": "EM ABERTO"
+        },
+        {
+          "supplier": "Erick  G Vieira",
+          "invoice": "296023",
+          "dueDate": "2026-06-15",
+          "paymentMethod": "BOLETO",
+          "netValue": 420,
+          "halfValue": 210,
+          "balanceIldeuGuim": 9570.93,
+          "balanceFabAlb": 5218.24,
+          "totalBalance": 14789.17,
           "status": "EM ABERTO"
         },
         {
@@ -12754,9 +12899,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 446.68,
           "halfValue": 223.34,
-          "balanceIldeuGuim": -8628.74,
-          "balanceFabAlb": -8628.74,
-          "totalBalance": -17257.48,
+          "balanceIldeuGuim": 9360.93,
+          "balanceFabAlb": 5008.24,
+          "totalBalance": 14369.17,
           "status": "EM ABERTO"
         },
         {
@@ -12766,31 +12911,32 @@
           "paymentMethod": "BOLETO",
           "netValue": 312.5,
           "halfValue": 156.25,
-          "balanceIldeuGuim": -8852.08,
-          "balanceFabAlb": -8852.08,
-          "totalBalance": -17704.16,
+          "balanceIldeuGuim": 9137.59,
+          "balanceFabAlb": 4784.9,
+          "totalBalance": 13922.49,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "65/120",
           "dueDate": "2026-06-20",
           "paymentMethod": "BOLETO",
           "netValue": 2058.38,
           "halfValue": 1029.19,
-          "balanceIldeuGuim": -9008.33,
-          "balanceFabAlb": -9008.33,
-          "totalBalance": -18016.66,
+          "balanceIldeuGuim": 8981.34,
+          "balanceFabAlb": 4628.65,
+          "totalBalance": 13609.99,
           "status": "EM ABERTO"
         },
         {
           "supplier": "DARF SIMPLES NACIONAL",
-          "dueDate": "2026-06-20",
+          "dueDate": "2026-06-19",
           "paymentMethod": "BOLETO",
           "netValue": 2376.2,
           "halfValue": 1188.1,
-          "balanceIldeuGuim": -10037.52,
-          "balanceFabAlb": -10037.52,
-          "totalBalance": -20075.04,
+          "balanceIldeuGuim": 7952.15,
+          "balanceFabAlb": 3599.46,
+          "totalBalance": 11551.61,
           "status": "EM ABERTO"
         },
         {
@@ -12798,11 +12944,23 @@
           "invoice": "23155",
           "dueDate": "2026-06-22",
           "paymentMethod": "BOLETO",
-          "netValue": 175.82,
-          "halfValue": 87.91,
-          "balanceIldeuGuim": -11225.62,
-          "balanceFabAlb": -11225.62,
-          "totalBalance": -22451.24,
+          "netValue": 175.83,
+          "halfValue": 87.92,
+          "balanceIldeuGuim": 6764.05,
+          "balanceFabAlb": 2411.36,
+          "totalBalance": 9175.41,
+          "status": "EM ABERTO"
+        },
+        {
+          "supplier": "A nova casa moura (02/02)",
+          "invoice": "94545",
+          "dueDate": "2026-06-22",
+          "paymentMethod": "BOLETO",
+          "netValue": 340.3,
+          "halfValue": 170.15,
+          "balanceIldeuGuim": 6676.14,
+          "balanceFabAlb": 2323.45,
+          "totalBalance": 8999.58,
           "status": "EM ABERTO"
         },
         {
@@ -12811,9 +12969,9 @@
           "paymentMethod": "PIX",
           "netValue": 5000,
           "halfValue": 2500,
-          "balanceIldeuGuim": -11313.53,
-          "balanceFabAlb": -11313.53,
-          "totalBalance": -22627.06,
+          "balanceIldeuGuim": 6505.99,
+          "balanceFabAlb": 2153.3,
+          "totalBalance": 8659.28,
           "status": "EM ABERTO"
         },
         {
@@ -12823,9 +12981,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 2241,
           "halfValue": 1120.5,
-          "balanceIldeuGuim": -13813.53,
-          "balanceFabAlb": -13813.53,
-          "totalBalance": -27627.06,
+          "balanceIldeuGuim": 4005.99,
+          "balanceFabAlb": -346.7,
+          "totalBalance": 3659.28,
           "status": "EM ABERTO"
         },
         {
@@ -12835,9 +12993,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 649.66,
           "halfValue": 324.83,
-          "balanceIldeuGuim": -14934.03,
-          "balanceFabAlb": -14934.03,
-          "totalBalance": -29868.06,
+          "balanceIldeuGuim": 2885.49,
+          "balanceFabAlb": -1467.2,
+          "totalBalance": 1418.28,
           "status": "EM ABERTO"
         },
         {
@@ -12847,9 +13005,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 296.65,
           "halfValue": 148.32,
-          "balanceIldeuGuim": -15258.86,
-          "balanceFabAlb": -15258.86,
-          "totalBalance": -30517.72,
+          "balanceIldeuGuim": 2560.66,
+          "balanceFabAlb": -1792.03,
+          "totalBalance": 768.62,
           "status": "EM ABERTO"
         },
         {
@@ -12859,9 +13017,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 108.12,
           "halfValue": 54.06,
-          "balanceIldeuGuim": -15407.18,
-          "balanceFabAlb": -15407.18,
-          "totalBalance": -30814.37,
+          "balanceIldeuGuim": 2412.33,
+          "balanceFabAlb": -1940.36,
+          "totalBalance": 471.97,
           "status": "EM ABERTO"
         }
       ]
@@ -12873,13 +13031,13 @@
       "month": 7,
       "totals": {
         "paid": 0,
-        "open": 15053.98,
+        "open": 16749.44,
         "depositsIldeuGuim": 0,
         "depositsFabAlb": 0,
-        "expenses": 15053.98,
-        "finalIldeuGuim": -7463.92,
-        "finalFabAlb": -7463.92,
-        "finalTotal": -14927.84
+        "expenses": 16749.44,
+        "finalIldeuGuim": -8311.65,
+        "finalFabAlb": -8311.65,
+        "finalTotal": -16623.3
       },
       "entries": [
         {
@@ -12930,15 +13088,27 @@
           "status": "EM ABERTO"
         },
         {
+          "supplier": "Fabiano Rodrigues (calhas)",
+          "invoice": "2026-02-01",
+          "dueDate": "2026-07-05",
+          "paymentMethod": "CHEQUE",
+          "netValue": 1437.5,
+          "halfValue": 718.75,
+          "balanceIldeuGuim": -2018.31,
+          "balanceFabAlb": -2018.31,
+          "totalBalance": -4036.63,
+          "status": "EM ABERTO"
+        },
+        {
           "supplier": "Eletrica Norte (02/03)",
           "invoice": "299781",
           "dueDate": "2026-07-06",
           "paymentMethod": "BOLETO",
           "netValue": 373.2,
           "halfValue": 186.6,
-          "balanceIldeuGuim": -2018.31,
-          "balanceFabAlb": -2018.31,
-          "totalBalance": -4036.63,
+          "balanceIldeuGuim": -2737.06,
+          "balanceFabAlb": -2737.06,
+          "totalBalance": -5474.13,
           "status": "EM ABERTO"
         },
         {
@@ -12948,9 +13118,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 486.48,
           "halfValue": 243.24,
-          "balanceIldeuGuim": -2204.91,
-          "balanceFabAlb": -2204.91,
-          "totalBalance": -4409.83,
+          "balanceIldeuGuim": -2923.66,
+          "balanceFabAlb": -2923.66,
+          "totalBalance": -5847.33,
           "status": "EM ABERTO"
         },
         {
@@ -12959,9 +13129,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 82.41,
           "halfValue": 41.21,
-          "balanceIldeuGuim": -2448.16,
-          "balanceFabAlb": -2448.16,
-          "totalBalance": -4896.31,
+          "balanceIldeuGuim": -3166.9,
+          "balanceFabAlb": -3166.9,
+          "totalBalance": -6333.81,
           "status": "EM ABERTO"
         },
         {
@@ -12970,9 +13140,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 413.88,
           "halfValue": 206.94,
-          "balanceIldeuGuim": -2489.36,
-          "balanceFabAlb": -2489.36,
-          "totalBalance": -4978.72,
+          "balanceIldeuGuim": -3208.11,
+          "balanceFabAlb": -3208.11,
+          "totalBalance": -6416.22,
           "status": "EM ABERTO"
         },
         {
@@ -12981,9 +13151,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2696.3,
-          "balanceFabAlb": -2696.3,
-          "totalBalance": -5392.6,
+          "balanceIldeuGuim": -3415.05,
+          "balanceFabAlb": -3415.05,
+          "totalBalance": -6830.1,
           "status": "EM ABERTO"
         },
         {
@@ -12992,9 +13162,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2711.16,
-          "balanceFabAlb": -2711.16,
-          "totalBalance": -5422.32,
+          "balanceIldeuGuim": -3429.91,
+          "balanceFabAlb": -3429.91,
+          "totalBalance": -6859.82,
           "status": "EM ABERTO"
         },
         {
@@ -13003,9 +13173,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2726.02,
-          "balanceFabAlb": -2726.02,
-          "totalBalance": -5452.04,
+          "balanceIldeuGuim": -3444.77,
+          "balanceFabAlb": -3444.77,
+          "totalBalance": -6889.54,
           "status": "EM ABERTO"
         },
         {
@@ -13014,20 +13184,20 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2740.88,
-          "balanceFabAlb": -2740.88,
-          "totalBalance": -5481.76,
+          "balanceIldeuGuim": -3459.63,
+          "balanceFabAlb": -3459.63,
+          "totalBalance": -6919.26,
           "status": "EM ABERTO"
         },
         {
           "supplier": "Saae",
           "dueDate": "2026-07-15",
           "paymentMethod": "BOLETO",
-          "netValue": 198.48,
-          "halfValue": 99.24,
-          "balanceIldeuGuim": -2755.74,
-          "balanceFabAlb": -2755.74,
-          "totalBalance": -5511.48,
+          "netValue": 456.44,
+          "halfValue": 228.22,
+          "balanceIldeuGuim": -3474.49,
+          "balanceFabAlb": -3474.49,
+          "totalBalance": -6948.98,
           "status": "EM ABERTO"
         },
         {
@@ -13037,9 +13207,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 446.68,
           "halfValue": 223.34,
-          "balanceIldeuGuim": -2854.98,
-          "balanceFabAlb": -2854.98,
-          "totalBalance": -5709.96,
+          "balanceIldeuGuim": -3702.71,
+          "balanceFabAlb": -3702.71,
+          "totalBalance": -7405.42,
           "status": "EM ABERTO"
         },
         {
@@ -13049,9 +13219,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -3078.32,
-          "balanceFabAlb": -3078.32,
-          "totalBalance": -6156.64,
+          "balanceIldeuGuim": -3926.05,
+          "balanceFabAlb": -3926.05,
+          "totalBalance": -7852.1,
           "status": "EM ABERTO"
         },
         {
@@ -13061,20 +13231,21 @@
           "paymentMethod": "BOLETO",
           "netValue": 312.5,
           "halfValue": 156.25,
-          "balanceIldeuGuim": -3708.15,
-          "balanceFabAlb": -3708.15,
-          "totalBalance": -7416.3,
+          "balanceIldeuGuim": -4555.88,
+          "balanceFabAlb": -4555.88,
+          "totalBalance": -9111.76,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "66/12",
           "dueDate": "2026-07-20",
           "paymentMethod": "BOLETO",
           "netValue": 2058.38,
           "halfValue": 1029.19,
-          "balanceIldeuGuim": -3864.4,
-          "balanceFabAlb": -3864.4,
-          "totalBalance": -7728.8,
+          "balanceIldeuGuim": -4712.13,
+          "balanceFabAlb": -4712.13,
+          "totalBalance": -9424.26,
           "status": "EM ABERTO"
         },
         {
@@ -13083,9 +13254,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 2250,
           "halfValue": 1125,
-          "balanceIldeuGuim": -4893.59,
-          "balanceFabAlb": -4893.59,
-          "totalBalance": -9787.18,
+          "balanceIldeuGuim": -5741.32,
+          "balanceFabAlb": -5741.32,
+          "totalBalance": -11482.64,
           "status": "EM ABERTO"
         },
         {
@@ -13095,9 +13266,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 2241,
           "halfValue": 1120.5,
-          "balanceIldeuGuim": -6018.59,
-          "balanceFabAlb": -6018.59,
-          "totalBalance": -12037.18,
+          "balanceIldeuGuim": -6866.32,
+          "balanceFabAlb": -6866.32,
+          "totalBalance": -13732.64,
           "status": "EM ABERTO"
         },
         {
@@ -13107,9 +13278,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 649.66,
           "halfValue": 324.83,
-          "balanceIldeuGuim": -7139.09,
-          "balanceFabAlb": -7139.09,
-          "totalBalance": -14278.18,
+          "balanceIldeuGuim": -7986.82,
+          "balanceFabAlb": -7986.82,
+          "totalBalance": -15973.64,
           "status": "EM ABERTO"
         },
         {
@@ -13119,9 +13290,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 126.14,
           "halfValue": 63.07,
-          "balanceIldeuGuim": -7463.92,
-          "balanceFabAlb": -7463.92,
-          "totalBalance": -14927.84,
+          "balanceIldeuGuim": -8311.65,
+          "balanceFabAlb": -8311.65,
+          "totalBalance": -16623.3,
           "status": "EM ABERTO"
         }
       ]
@@ -13133,13 +13304,13 @@
       "month": 8,
       "totals": {
         "paid": 0,
-        "open": 11517.169999999998,
+        "open": 13160.82,
         "depositsIldeuGuim": 0,
         "depositsFabAlb": 0,
-        "expenses": 11517.169999999998,
-        "finalIldeuGuim": -5695.51,
-        "finalFabAlb": -5695.51,
-        "finalTotal": -11391.03
+        "expenses": 13160.82,
+        "finalIldeuGuim": -6517.34,
+        "finalFabAlb": -6517.34,
+        "finalTotal": -13034.68
       },
       "entries": [
         {
@@ -13178,15 +13349,27 @@
           "status": "EM ABERTO"
         },
         {
+          "supplier": "Fabiano Rodrigues (calhas)",
+          "invoice": "2026-02-02",
+          "dueDate": "2026-08-05",
+          "paymentMethod": "CHEQUE",
+          "netValue": 1437.5,
+          "halfValue": 718.75,
+          "balanceIldeuGuim": -1538.31,
+          "balanceFabAlb": -1538.31,
+          "totalBalance": -3076.63,
+          "status": "EM ABERTO"
+        },
+        {
           "supplier": "Eletrica Norte (03/03)",
           "invoice": "299781",
           "dueDate": "2026-08-05",
           "paymentMethod": "BOLETO",
           "netValue": 373.2,
           "halfValue": 186.6,
-          "balanceIldeuGuim": -1538.31,
-          "balanceFabAlb": -1538.31,
-          "totalBalance": -3076.63,
+          "balanceIldeuGuim": -2257.06,
+          "balanceFabAlb": -2257.06,
+          "totalBalance": -4514.13,
           "status": "EM ABERTO"
         },
         {
@@ -13195,9 +13378,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 82.41,
           "halfValue": 41.21,
-          "balanceIldeuGuim": -1724.91,
-          "balanceFabAlb": -1724.91,
-          "totalBalance": -3449.83,
+          "balanceIldeuGuim": -2443.66,
+          "balanceFabAlb": -2443.66,
+          "totalBalance": -4887.33,
           "status": "EM ABERTO"
         },
         {
@@ -13206,9 +13389,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 413.88,
           "halfValue": 206.94,
-          "balanceIldeuGuim": -1766.12,
-          "balanceFabAlb": -1766.12,
-          "totalBalance": -3532.24,
+          "balanceIldeuGuim": -2484.87,
+          "balanceFabAlb": -2484.87,
+          "totalBalance": -4969.74,
           "status": "EM ABERTO"
         },
         {
@@ -13217,9 +13400,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -1973.06,
-          "balanceFabAlb": -1973.06,
-          "totalBalance": -3946.12,
+          "balanceIldeuGuim": -2691.81,
+          "balanceFabAlb": -2691.81,
+          "totalBalance": -5383.62,
           "status": "EM ABERTO"
         },
         {
@@ -13228,9 +13411,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -1987.92,
-          "balanceFabAlb": -1987.92,
-          "totalBalance": -3975.84,
+          "balanceIldeuGuim": -2706.67,
+          "balanceFabAlb": -2706.67,
+          "totalBalance": -5413.34,
           "status": "EM ABERTO"
         },
         {
@@ -13239,9 +13422,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2002.78,
-          "balanceFabAlb": -2002.78,
-          "totalBalance": -4005.56,
+          "balanceIldeuGuim": -2721.53,
+          "balanceFabAlb": -2721.53,
+          "totalBalance": -5443.06,
           "status": "EM ABERTO"
         },
         {
@@ -13250,9 +13433,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 29.72,
           "halfValue": 14.86,
-          "balanceIldeuGuim": -2017.64,
-          "balanceFabAlb": -2017.64,
-          "totalBalance": -4035.28,
+          "balanceIldeuGuim": -2736.39,
+          "balanceFabAlb": -2736.39,
+          "totalBalance": -5472.78,
           "status": "EM ABERTO"
         },
         {
@@ -13261,9 +13444,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 198.48,
           "halfValue": 99.24,
-          "balanceIldeuGuim": -2032.5,
-          "balanceFabAlb": -2032.5,
-          "totalBalance": -4065,
+          "balanceIldeuGuim": -2751.25,
+          "balanceFabAlb": -2751.25,
+          "totalBalance": -5502.5,
           "status": "EM ABERTO"
         },
         {
@@ -13273,20 +13456,21 @@
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -2131.74,
-          "balanceFabAlb": -2131.74,
-          "totalBalance": -4263.48,
+          "balanceIldeuGuim": -2850.49,
+          "balanceFabAlb": -2850.49,
+          "totalBalance": -5700.98,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "67/120",
           "dueDate": "2026-08-20",
           "paymentMethod": "BOLETO",
-          "netValue": 1852.23,
-          "halfValue": 926.12,
-          "balanceIldeuGuim": -2761.57,
-          "balanceFabAlb": -2761.57,
-          "totalBalance": -5523.14,
+          "netValue": 2058.38,
+          "halfValue": 1029.19,
+          "balanceIldeuGuim": -3480.32,
+          "balanceFabAlb": -3480.32,
+          "totalBalance": -6960.64,
           "status": "EM ABERTO"
         },
         {
@@ -13295,9 +13479,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 1125,
           "halfValue": 562.5,
-          "balanceIldeuGuim": -3687.68,
-          "balanceFabAlb": -3687.68,
-          "totalBalance": -7375.37,
+          "balanceIldeuGuim": -4509.51,
+          "balanceFabAlb": -4509.51,
+          "totalBalance": -9019.02,
           "status": "EM ABERTO"
         },
         {
@@ -13307,9 +13491,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 2241,
           "halfValue": 1120.5,
-          "balanceIldeuGuim": -4250.19,
-          "balanceFabAlb": -4250.19,
-          "totalBalance": -8500.37,
+          "balanceIldeuGuim": -5072.01,
+          "balanceFabAlb": -5072.01,
+          "totalBalance": -10144.02,
           "status": "EM ABERTO"
         },
         {
@@ -13319,9 +13503,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 649.66,
           "halfValue": 324.83,
-          "balanceIldeuGuim": -5370.68,
-          "balanceFabAlb": -5370.68,
-          "totalBalance": -10741.37,
+          "balanceIldeuGuim": -6192.51,
+          "balanceFabAlb": -6192.51,
+          "totalBalance": -12385.02,
           "status": "EM ABERTO"
         },
         {
@@ -13331,9 +13515,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 126.14,
           "halfValue": 63.07,
-          "balanceIldeuGuim": -5695.51,
-          "balanceFabAlb": -5695.51,
-          "totalBalance": -11391.03,
+          "balanceIldeuGuim": -6517.34,
+          "balanceFabAlb": -6517.34,
+          "totalBalance": -13034.68,
           "status": "EM ABERTO"
         }
       ]
@@ -13345,13 +13529,13 @@
       "month": 9,
       "totals": {
         "paid": 0,
-        "open": 12587.01,
+        "open": 7465.7300000000005,
         "depositsIldeuGuim": 0,
         "depositsFabAlb": 0,
-        "expenses": 12587.01,
-        "finalIldeuGuim": -6230.43,
-        "finalFabAlb": -6230.43,
-        "finalTotal": -12460.87
+        "expenses": 7465.7300000000005,
+        "finalIldeuGuim": -2612.36,
+        "finalFabAlb": -2612.36,
+        "finalTotal": -5224.73
       },
       "entries": [
         {
@@ -13378,69 +13562,14 @@
           "status": "EM ABERTO"
         },
         {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-09-10",
-          "paymentMethod": "BOLETO",
-          "netValue": 82.41,
-          "halfValue": 41.21,
-          "balanceIldeuGuim": -84.66,
-          "balanceFabAlb": -84.66,
-          "totalBalance": -169.33,
-          "status": "EM ABERTO"
-        },
-        {
           "supplier": "Francis Henrique Contabilidade",
           "dueDate": "2026-09-10",
           "paymentMethod": "BOLETO",
           "netValue": 413.88,
           "halfValue": 206.94,
-          "balanceIldeuGuim": -125.87,
-          "balanceFabAlb": -125.87,
-          "totalBalance": -251.74,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-09-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -332.81,
-          "balanceFabAlb": -332.81,
-          "totalBalance": -665.62,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-09-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -347.67,
-          "balanceFabAlb": -347.67,
-          "totalBalance": -695.34,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-08-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -362.53,
-          "balanceFabAlb": -362.53,
-          "totalBalance": -725.06,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-09-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -377.39,
-          "balanceFabAlb": -377.39,
-          "totalBalance": -754.78,
+          "balanceIldeuGuim": -84.66,
+          "balanceFabAlb": -84.66,
+          "totalBalance": -169.33,
           "status": "EM ABERTO"
         },
         {
@@ -13449,9 +13578,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 198.48,
           "halfValue": 99.24,
-          "balanceIldeuGuim": -392.25,
-          "balanceFabAlb": -392.25,
-          "totalBalance": -784.5,
+          "balanceIldeuGuim": -291.6,
+          "balanceFabAlb": -291.6,
+          "totalBalance": -583.21,
           "status": "EM ABERTO"
         },
         {
@@ -13461,20 +13590,21 @@
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -491.49,
-          "balanceFabAlb": -491.49,
-          "totalBalance": -982.98,
+          "balanceIldeuGuim": -390.84,
+          "balanceFabAlb": -390.84,
+          "totalBalance": -781.69,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "68/120",
           "dueDate": "2026-09-20",
           "paymentMethod": "BOLETO",
-          "netValue": 1852.23,
-          "halfValue": 926.12,
-          "balanceIldeuGuim": -1121.32,
-          "balanceFabAlb": -1121.32,
-          "totalBalance": -2242.64,
+          "netValue": 2058.38,
+          "halfValue": 1029.19,
+          "balanceIldeuGuim": -1020.67,
+          "balanceFabAlb": -1020.67,
+          "totalBalance": -2041.35,
           "status": "EM ABERTO"
         },
         {
@@ -13483,20 +13613,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 1125,
           "halfValue": 562.5,
-          "balanceIldeuGuim": -2047.43,
-          "balanceFabAlb": -2047.43,
-          "totalBalance": -4094.87,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Empreita reboco - Daniel",
-          "dueDate": "2026-09-20",
-          "paymentMethod": "PIX",
-          "netValue": 5000,
-          "halfValue": 2500,
-          "balanceIldeuGuim": -2609.93,
-          "balanceFabAlb": -2609.93,
-          "totalBalance": -5219.87,
+          "balanceIldeuGuim": -2049.86,
+          "balanceFabAlb": -2049.86,
+          "totalBalance": -4099.73,
           "status": "EM ABERTO"
         },
         {
@@ -13506,21 +13625,9 @@
           "paymentMethod": "CHEQUE",
           "netValue": 2241,
           "halfValue": 1120.5,
-          "balanceIldeuGuim": -5109.94,
-          "balanceFabAlb": -5109.94,
-          "totalBalance": -10219.87,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Pasi seguros",
-          "invoice": "6614806",
-          "dueDate": "2026-09-30",
-          "paymentMethod": "BOLETO",
-          "netValue": 126.14,
-          "halfValue": 63.07,
-          "balanceIldeuGuim": -6230.43,
-          "balanceFabAlb": -6230.43,
-          "totalBalance": -12460.87,
+          "balanceIldeuGuim": -2612.36,
+          "balanceFabAlb": -2612.36,
+          "totalBalance": -5224.73,
           "status": "EM ABERTO"
         }
       ]
@@ -13532,13 +13639,13 @@
       "month": 10,
       "totals": {
         "paid": 0,
-        "open": 5346.010000000001,
+        "open": 5224.7300000000005,
         "depositsIldeuGuim": 0,
         "depositsFabAlb": 0,
-        "expenses": 5346.010000000001,
-        "finalIldeuGuim": -2609.93,
-        "finalFabAlb": -2609.93,
-        "finalTotal": -5219.87
+        "expenses": 5224.7300000000005,
+        "finalIldeuGuim": -2049.86,
+        "finalFabAlb": -2049.86,
+        "finalTotal": -4099.73
       },
       "entries": [
         {
@@ -13565,69 +13672,14 @@
           "status": "EM ABERTO"
         },
         {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-10-10",
-          "paymentMethod": "BOLETO",
-          "netValue": 82.41,
-          "halfValue": 41.21,
-          "balanceIldeuGuim": -84.66,
-          "balanceFabAlb": -84.66,
-          "totalBalance": -169.33,
-          "status": "EM ABERTO"
-        },
-        {
           "supplier": "Francis Henrique Contabilidade",
           "dueDate": "2026-10-10",
           "paymentMethod": "BOLETO",
           "netValue": 413.88,
           "halfValue": 206.94,
-          "balanceIldeuGuim": -125.87,
-          "balanceFabAlb": -125.87,
-          "totalBalance": -251.74,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-10-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -332.81,
-          "balanceFabAlb": -332.81,
-          "totalBalance": -665.62,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-10-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -347.67,
-          "balanceFabAlb": -347.67,
-          "totalBalance": -695.34,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-10-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -362.53,
-          "balanceFabAlb": -362.53,
-          "totalBalance": -725.06,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-10-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -377.39,
-          "balanceFabAlb": -377.39,
-          "totalBalance": -754.78,
+          "balanceIldeuGuim": -84.66,
+          "balanceFabAlb": -84.66,
+          "totalBalance": -169.33,
           "status": "EM ABERTO"
         },
         {
@@ -13636,9 +13688,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 198.48,
           "halfValue": 99.24,
-          "balanceIldeuGuim": -392.25,
-          "balanceFabAlb": -392.25,
-          "totalBalance": -784.5,
+          "balanceIldeuGuim": -291.6,
+          "balanceFabAlb": -291.6,
+          "totalBalance": -583.21,
           "status": "EM ABERTO"
         },
         {
@@ -13648,20 +13700,21 @@
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -491.49,
-          "balanceFabAlb": -491.49,
-          "totalBalance": -982.98,
+          "balanceIldeuGuim": -390.84,
+          "balanceFabAlb": -390.84,
+          "totalBalance": -781.69,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "69/120",
           "dueDate": "2026-10-20",
           "paymentMethod": "BOLETO",
-          "netValue": 1852.23,
-          "halfValue": 926.12,
-          "balanceIldeuGuim": -1121.32,
-          "balanceFabAlb": -1121.32,
-          "totalBalance": -2242.64,
+          "netValue": 2058.38,
+          "halfValue": 1029.19,
+          "balanceIldeuGuim": -1020.67,
+          "balanceFabAlb": -1020.67,
+          "totalBalance": -2041.35,
           "status": "EM ABERTO"
         },
         {
@@ -13670,21 +13723,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 1125,
           "halfValue": 562.5,
-          "balanceIldeuGuim": -2047.43,
-          "balanceFabAlb": -2047.43,
-          "totalBalance": -4094.87,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Pasi seguros",
-          "invoice": "6614806",
-          "dueDate": "2026-10-30",
-          "paymentMethod": "BOLETO",
-          "netValue": 126.14,
-          "halfValue": 63.07,
-          "balanceIldeuGuim": -2609.93,
-          "balanceFabAlb": -2609.93,
-          "totalBalance": -5219.87,
+          "balanceIldeuGuim": -2049.86,
+          "balanceFabAlb": -2049.86,
+          "totalBalance": -4099.73,
           "status": "EM ABERTO"
         }
       ]
@@ -13696,13 +13737,13 @@
       "month": 11,
       "totals": {
         "paid": 0,
-        "open": 5346.010000000001,
+        "open": 5224.7300000000005,
         "depositsIldeuGuim": 0,
         "depositsFabAlb": 0,
-        "expenses": 5346.010000000001,
-        "finalIldeuGuim": -2609.93,
-        "finalFabAlb": -2609.93,
-        "finalTotal": -5219.87
+        "expenses": 5224.7300000000005,
+        "finalIldeuGuim": -2049.86,
+        "finalFabAlb": -2049.86,
+        "finalTotal": -4099.73
       },
       "entries": [
         {
@@ -13729,69 +13770,14 @@
           "status": "EM ABERTO"
         },
         {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-11-10",
-          "paymentMethod": "BOLETO",
-          "netValue": 82.41,
-          "halfValue": 41.21,
-          "balanceIldeuGuim": -84.66,
-          "balanceFabAlb": -84.66,
-          "totalBalance": -169.33,
-          "status": "EM ABERTO"
-        },
-        {
           "supplier": "Francis Henrique Contabilidade",
           "dueDate": "2026-11-10",
           "paymentMethod": "BOLETO",
           "netValue": 413.88,
           "halfValue": 206.94,
-          "balanceIldeuGuim": -125.87,
-          "balanceFabAlb": -125.87,
-          "totalBalance": -251.74,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-11-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -332.81,
-          "balanceFabAlb": -332.81,
-          "totalBalance": -665.62,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-11-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -347.67,
-          "balanceFabAlb": -347.67,
-          "totalBalance": -695.34,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-11-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -362.53,
-          "balanceFabAlb": -362.53,
-          "totalBalance": -725.06,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Unimed Seguro",
-          "dueDate": "2026-11-15",
-          "paymentMethod": "BOLETO",
-          "netValue": 29.72,
-          "halfValue": 14.86,
-          "balanceIldeuGuim": -377.39,
-          "balanceFabAlb": -377.39,
-          "totalBalance": -754.78,
+          "balanceIldeuGuim": -84.66,
+          "balanceFabAlb": -84.66,
+          "totalBalance": -169.33,
           "status": "EM ABERTO"
         },
         {
@@ -13800,32 +13786,33 @@
           "paymentMethod": "BOLETO",
           "netValue": 198.48,
           "halfValue": 99.24,
-          "balanceIldeuGuim": -392.25,
-          "balanceFabAlb": -392.25,
-          "totalBalance": -784.5,
+          "balanceIldeuGuim": -291.6,
+          "balanceFabAlb": -291.6,
+          "totalBalance": -583.21,
           "status": "EM ABERTO"
         },
         {
           "supplier": "Marmoraria Interlagos",
-          "invoice": "2026-06-05",
+          "invoice": "2026-06-06",
           "dueDate": "2026-11-15",
           "paymentMethod": "CHEQUE",
           "netValue": 1259.66,
           "halfValue": 629.83,
-          "balanceIldeuGuim": -491.49,
-          "balanceFabAlb": -491.49,
-          "totalBalance": -982.98,
+          "balanceIldeuGuim": -390.84,
+          "balanceFabAlb": -390.84,
+          "totalBalance": -781.69,
           "status": "EM ABERTO"
         },
         {
           "supplier": "CARNÊ COLORADO",
+          "invoice": "70/120",
           "dueDate": "2026-11-20",
           "paymentMethod": "BOLETO",
-          "netValue": 1852.23,
-          "halfValue": 926.12,
-          "balanceIldeuGuim": -1121.32,
-          "balanceFabAlb": -1121.32,
-          "totalBalance": -2242.64,
+          "netValue": 2058.38,
+          "halfValue": 1029.19,
+          "balanceIldeuGuim": -1020.67,
+          "balanceFabAlb": -1020.67,
+          "totalBalance": -2041.35,
           "status": "EM ABERTO"
         },
         {
@@ -13834,21 +13821,9 @@
           "paymentMethod": "BOLETO",
           "netValue": 1125,
           "halfValue": 562.5,
-          "balanceIldeuGuim": -2047.43,
-          "balanceFabAlb": -2047.43,
-          "totalBalance": -4094.87,
-          "status": "EM ABERTO"
-        },
-        {
-          "supplier": "Pasi seguros",
-          "invoice": "6614806",
-          "dueDate": "2026-11-30",
-          "paymentMethod": "BOLETO",
-          "netValue": 126.14,
-          "halfValue": 63.07,
-          "balanceIldeuGuim": -2609.93,
-          "balanceFabAlb": -2609.93,
-          "totalBalance": -5219.87,
+          "balanceIldeuGuim": -2049.86,
+          "balanceFabAlb": -2049.86,
+          "totalBalance": -4099.73,
           "status": "EM ABERTO"
         }
       ]

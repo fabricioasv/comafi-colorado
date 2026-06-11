@@ -2,15 +2,23 @@
 
 Site estatico mobile-first para acompanhar despesas, depositos e saldos da obra COMAFI Colorado.
 
-## Fluxo simplificado
+## Fluxo de atualizacao dos dados
 
-1. Gere o JSON localmente a partir da planilha:
+1. Baixe a planilha atualizada para o seu computador.
+
+Exemplo de arquivo:
+
+```txt
+CONTROLE CONTAS A PAGAR 2024 COMAFI.xlsx
+```
+
+2. Gere o JSON localmente a partir dessa planilha:
 
 ```bash
 npm run data:build -- "C:\caminho\CONTROLE CONTAS A PAGAR 2024 COMAFI.xlsx"
 ```
 
-2. O comando grava:
+Esse comando nao baixa a planilha. Ele apenas le o arquivo informado no caminho e grava/atualiza:
 
 ```txt
 public/data.json
@@ -37,5 +45,5 @@ npm run dev
 
 - Nao ha backend, Function, Blob Storage ou token de publicacao.
 - O front le somente `/data.json`.
-- Para atualizar os dados, rode novamente `npm run data:build -- caminho.xlsx`, faca build e publique.
+- Para atualizar os dados, baixe a planilha nova, rode novamente `npm run data:build -- caminho.xlsx`, faca build e publique.
 - O parser aceita `.xlsx` e `.csv`.
